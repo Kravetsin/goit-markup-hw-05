@@ -435,7 +435,7 @@ img {
 }
 
 /* !Subscribe section */
-.form-title {
+.page-text.form-title {
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
@@ -541,6 +541,10 @@ img {
 /* *Modal form */
 .box-label-modal{
   margin-bottom: 8px;
+}
+
+.box-textarea-modal{
+  margin-bottom: 16px;
 }
 
 .title-modal {
