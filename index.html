@@ -522,7 +522,12 @@
           <div class="box-label-modal">
             <label class="label-modal" for="user-name">Name</label>
             <div class="box-input-modal">
-              <input class="input-modal" type="text" id="user-name" />
+              <input
+                class="input-modal"
+                type="text"
+                id="user-name"
+                name="user-name"
+              />
               <svg class="icon-placeholder" width="18" height="24">
                 <use href="./images/icons.svg#icon-name"></use>
               </svg>
@@ -532,7 +537,12 @@
           <div class="box-label-modal">
             <label class="label-modal" for="user-phone">Phone</label>
             <div class="box-input-modal">
-              <input class="input-modal" type="tel" id="user-phone" />
+              <input
+                class="input-modal"
+                type="tel"
+                id="user-phone"
+                name="user-phone"
+              />
               <svg class="icon-placeholder" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
@@ -542,7 +552,12 @@
           <div class="box-label-modal">
             <label class="label-modal" for="user-email">Email</label>
             <div class="box-input-modal">
-              <input class="input-modal" type="email" id="user-email" />
+              <input
+                class="input-modal"
+                type="email"
+                id="user-email"
+                name="user-email"
+              />
               <svg class="icon-placeholder" width="18" height="24">
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
@@ -550,16 +565,15 @@
           </div>
 
           <div class="box-label-modal">
-            <label class="label-modal" for="user-comment"
-              >Comment
-              <div class="box-input-modal">
-                <textarea
-                  class="textarea-modal"
-                  type="text"
-                  id="user-comment"
-                  placeholder="Text input"
-                ></textarea></div
-            ></label>
+            <label class="label-modal" for="user-comment">Comment</label>
+            <div class="box-input-modal">
+              <textarea
+                class="textarea-modal"
+                id="user-comment"
+                name="user-comment"
+                placeholder="Text input"
+              ></textarea>
+            </div>
           </div>
 
           <div class="box-checkbox-modal">
@@ -575,9 +589,13 @@
               ><span class="span-icon-checkbox"
                 ><svg class="icon-accept" width="10" height="8">
                   <use href="./images/icons.svg#icon-accept"></use></svg></span
-              >I accept the terms and conditions of the</label
+              >I accept the terms and conditions of the<a class="link-privacy-modal" href="#"
+                >Privacy Policy</a
+              ></label
             >
           </div>
+
+          <button class="order-button form-send-btn">Send</button>
         </form>
       </div>
     </div>

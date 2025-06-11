@@ -613,6 +613,15 @@ img {
   border: none;
   fill: #f4f4fd;
 }
+
+.box-checkbox-modal{
+  margin-bottom: 24px;
+}
+
+.link-privacy-modal{
+  color: #4d5ae5;
+}
+
 /* *Placeholder icons */
 .icon-placeholder {
   position: absolute;
@@ -638,4 +647,10 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
+}
+
+/* *Modal button */
+.form-send-btn{
+  display: block;
+  font-weight: 500;
 }
