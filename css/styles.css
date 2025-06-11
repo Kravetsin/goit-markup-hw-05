@@ -501,8 +501,8 @@ img {
   width: 408px;
   min-height: 584px;
   background: #fcfcfc;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 72px 24px 24px 24px;
@@ -525,10 +525,10 @@ img {
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
 }
 
-.button-modal-close:hover, .button-modal-close:focus{
+.button-modal-close:hover,
+.button-modal-close:focus {
   border: none;
   background-color: #404bbf;
   fill: #ffffff;
@@ -539,11 +539,11 @@ img {
 }
 
 /* *Modal form */
-.box-label-modal{
+.box-label-modal {
   margin-bottom: 8px;
 }
 
-.box-textarea-modal{
+.box-textarea-modal {
   margin-bottom: 16px;
 }
 
@@ -610,19 +610,20 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  cursor: pointer;
 }
 
-.input-checkbox-modal:checked + .span-icon-checkbox {
+.input-checkbox-modal:checked + .label-accept-privacy .span-icon-checkbox {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
 }
 
-.box-checkbox-modal{
+.box-checkbox-modal {
   margin-bottom: 24px;
 }
 
-.link-privacy-modal{
+.link-privacy-modal {
   color: #4d5ae5;
 }
 
@@ -651,10 +652,11 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 
 /* *Modal button */
-.form-send-btn{
+.form-send-btn {
   display: block;
   font-weight: 500;
 }
