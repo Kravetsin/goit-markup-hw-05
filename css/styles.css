@@ -498,17 +498,17 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 408;
+  width: 408px;
   min-height: 584px;
   background: #fcfcfc;
-  box-shadow: зі значенням 0px 1px 1px rgba(0, 0, 0, 0.14),
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 72px 24px 24px 24px;
 }
 
-/* *Button modal */
+/* *Close button */
 .button-modal-close {
   position: absolute;
   top: 24px;
@@ -525,17 +525,17 @@ img {
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  border: none;
+  
 }
 
-/* *Close button */
+.button-modal-close:hover, .button-modal-close:focus{
+  border: none;
+  background-color: #404bbf;
+  fill: #ffffff;
+}
+
 .icon-close {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.icon-close:hover,
-.icon-close:focus {
-  fill: #ffffff;
 }
 
 /* *Modal form */
