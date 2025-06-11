@@ -539,6 +539,10 @@ img {
 }
 
 /* *Modal form */
+.box-label-modal{
+  margin-bottom: 8px;
+}
+
 .title-modal {
   font-size: 16px;
   font-weight: 500;
@@ -547,10 +551,6 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 16px;
-}
-
-.box-form-modal {
-  margin-bottom: 8px;
 }
 
 .label-modal {
