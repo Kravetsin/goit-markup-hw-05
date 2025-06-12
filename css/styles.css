@@ -169,12 +169,14 @@ img {
   letter-spacing: 0.02em;
   line-height: 1.07;
   color: #ffffff;
+  margin-bottom: 48px;
 }
 
 .order-button {
   display: block;
   margin: auto;
   min-width: 169px;
+  height: 56px;
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -183,8 +185,6 @@ img {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  margin-top: 48px;
-  padding: 16px 32px;
   border: none;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
