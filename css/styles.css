@@ -554,6 +554,7 @@ img {
 
 /* *Modal form */
 .box-label-modal {
+  position: relative;
   margin-bottom: 8px;
 }
 
